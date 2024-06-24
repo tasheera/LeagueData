@@ -12,6 +12,12 @@ function App() {
 
   return (
     <>
+    <div className="heading">
+          <h1 >Foootball Leagues</h1>
+
+    </div>
+
+
     <Seacrch league={league} setLeagueData={setLeagueData}/>
 
 

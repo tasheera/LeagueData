@@ -2,8 +2,8 @@ import React from 'react'
 
 function FoodItem({leagueItem}) {
   return (
-    <div>
-      <p> {leagueItem.strLeague}</p>
+    <div className='data'>
+      <h2> {leagueItem.strLeague}</h2>
 
       <img src={`${leagueItem.strLogo}/preview`} alt="Logo" />
     </div>

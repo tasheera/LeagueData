@@ -1,0 +1,40 @@
+*{
+   padding-left: 5px;
+   font-family: sans-serif;
+}
+
+body{
+    background-image: url(assets/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.heading h1{
+    font-size: 2rem;
+    color: #0672EC;
+}
+
+label{
+    font-size: 1.3rem;
+    color: #CC5721;
+    font-weight: bold;
+    font-style: italic;
+}
+
+input{
+    padding: 5px;
+    font-size: 1rem;
+    border: none;
+    margin-left: 4px;
+    font-style: italic;
+}
+
