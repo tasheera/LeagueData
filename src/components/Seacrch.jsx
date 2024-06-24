@@ -25,7 +25,7 @@ const url="https://www.thesportsdb.com/api/v1/json/3/search_all_leagues.php?c="
 
   return (
     <div>
-        <label >Enter country name to find league </label>
+        <label >Enter country name to find leagues </label>
       <input type="text" value={query} onChange={(e) => setQuery(e.target.value)} placeholder='country name'/>
 
     </div>
